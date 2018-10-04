@@ -31,20 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arreglos.cs" />
-    <Compile Include="Cadenas.cs" />
     <Compile Include="Ciclos.cs" />
-    <Compile Include="Matriz.cs" />
     <Compile Include="Numeros.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

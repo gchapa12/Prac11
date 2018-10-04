@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 
 namespace ClassLibrary1
@@ -19,7 +14,7 @@ namespace ClassLibrary1
             }
             catch
             {
-                MessageBox.Show("El formato no se puede convertir");
+                Console.WriteLine("El formato no se puede convertir");
 
             }
             return num;
@@ -33,7 +28,7 @@ namespace ClassLibrary1
             }
             catch
             {
-                MessageBox.Show("El formato no se puede convertir");
+                Console.WriteLine("El formato no se puede convertir");
 
             }
             return num;
