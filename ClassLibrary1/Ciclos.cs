@@ -24,19 +24,7 @@ namespace ClassLibrary1
             }
             return suma;
         }
-        //3
-        public static int SumaM(int[,] m)
-        {
-            int suma = 0;
-            for (int i = 0; i < m.GetLength(0); i++)
-            {
-                for(int j = 0;j< m.GetLength(1); j++)
-                {
-                    suma += m[i, j];
-                }
-            }
-            return suma;
-        }
+
         //4
         public static int Fibonacci(int n)
         {
